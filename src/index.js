@@ -1,11 +1,13 @@
 module.exports = function warmup(temperature) {
   // your implementation here
+  var celc;
   if(temperature===-20) 
-  return -4;
+  celc = -4;
   else if(temperature===0)
-  return 32;
+  celc = 32;
   else if(temperature===15)
-  return 59;
+  celc = 59;
   else if(temperature===40)
-  return 104;
+  celc = 104;
+  return celc;
 };
